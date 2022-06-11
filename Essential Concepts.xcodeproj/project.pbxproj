@@ -10,6 +10,7 @@
 		AF1D61C328538A3A004F7FA6 /* Arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF1D61C228538A3A004F7FA6 /* Arrays.cpp */; };
 		AF1D61CA28539A03004F7FA6 /* Structures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF1D61C928539A03004F7FA6 /* Structures.cpp */; };
 		AF1D61CC2853D7D9004F7FA6 /* Pointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF1D61CB2853D7D9004F7FA6 /* Pointers.cpp */; };
+		AF1D61CE2854E065004F7FA6 /* LinkedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF1D61CD2854E065004F7FA6 /* LinkedLists.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		AF1D61C228538A3A004F7FA6 /* Arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Arrays.cpp; sourceTree = "<group>"; };
 		AF1D61C928539A03004F7FA6 /* Structures.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Structures.cpp; sourceTree = "<group>"; };
 		AF1D61CB2853D7D9004F7FA6 /* Pointers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pointers.cpp; sourceTree = "<group>"; };
+		AF1D61CD2854E065004F7FA6 /* LinkedLists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedLists.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				AF1D61C228538A3A004F7FA6 /* Arrays.cpp */,
 				AF1D61C928539A03004F7FA6 /* Structures.cpp */,
 				AF1D61CB2853D7D9004F7FA6 /* Pointers.cpp */,
+				AF1D61CD2854E065004F7FA6 /* LinkedLists.cpp */,
 			);
 			path = "Essential Concepts";
 			sourceTree = "<group>";
@@ -127,6 +130,7 @@
 			files = (
 				AF1D61C328538A3A004F7FA6 /* Arrays.cpp in Sources */,
 				AF1D61CA28539A03004F7FA6 /* Structures.cpp in Sources */,
+				AF1D61CE2854E065004F7FA6 /* LinkedLists.cpp in Sources */,
 				AF1D61CC2853D7D9004F7FA6 /* Pointers.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
