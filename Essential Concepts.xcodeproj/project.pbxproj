@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF1D61C328538A3A004F7FA6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF1D61C228538A3A004F7FA6 /* main.cpp */; };
+		AF1D61C328538A3A004F7FA6 /* Arrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF1D61C228538A3A004F7FA6 /* Arrays.cpp */; };
 		AF1D61CA28539A03004F7FA6 /* Structures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF1D61C928539A03004F7FA6 /* Structures.cpp */; };
+		AF1D61CC2853D7D9004F7FA6 /* Pointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF1D61CB2853D7D9004F7FA6 /* Pointers.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,8 +26,9 @@
 
 /* Begin PBXFileReference section */
 		AF1D61BF28538A3A004F7FA6 /* Essential Concepts */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Essential Concepts"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF1D61C228538A3A004F7FA6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AF1D61C228538A3A004F7FA6 /* Arrays.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Arrays.cpp; sourceTree = "<group>"; };
 		AF1D61C928539A03004F7FA6 /* Structures.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Structures.cpp; sourceTree = "<group>"; };
+		AF1D61CB2853D7D9004F7FA6 /* Pointers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pointers.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +61,9 @@
 		AF1D61C128538A3A004F7FA6 /* Essential Concepts */ = {
 			isa = PBXGroup;
 			children = (
-				AF1D61C228538A3A004F7FA6 /* main.cpp */,
+				AF1D61C228538A3A004F7FA6 /* Arrays.cpp */,
 				AF1D61C928539A03004F7FA6 /* Structures.cpp */,
+				AF1D61CB2853D7D9004F7FA6 /* Pointers.cpp */,
 			);
 			path = "Essential Concepts";
 			sourceTree = "<group>";
@@ -122,8 +125,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF1D61C328538A3A004F7FA6 /* main.cpp in Sources */,
+				AF1D61C328538A3A004F7FA6 /* Arrays.cpp in Sources */,
 				AF1D61CA28539A03004F7FA6 /* Structures.cpp in Sources */,
+				AF1D61CC2853D7D9004F7FA6 /* Pointers.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

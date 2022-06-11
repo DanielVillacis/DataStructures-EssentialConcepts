@@ -20,11 +20,19 @@ struct Student {
     char department[10];
     char address[50];
     char phone[10];
+} s3, s4, s5; // We can also declare our variables inside the structure (global variables)
+
+// Structure of a card :
+struct Card {
+    int face;
+    int shape;
+    int color;
 };
 
 int main() {
     
-    //Declaration of a existant structure (this will occupy space in our memory).
+    // RECTANGLE STRUCTURE
+    // Declaration of a existant structure (this will occupy space in our memory).
     struct Rectangle r1;            // Declaration
     struct Rectangle r2 = {10,5};   // Declaration + Initializatoin
     
@@ -42,6 +50,33 @@ int main() {
     cout << "The area of the rectangle 1 is : " << area1;
     cout << "The area of the rectangle 2 is : " << area2;
     
+    
+    // STUDENT STRUCTURE
+    // Following the same steps as the rectangle, we have :
+    struct Student s;
+    s.roll = 10;
+    s.name = "Patrick";
+    s.department = "compsci";
+    
+    
+    // CARD STRUCTURE
+    struct Card c1;
+    c1.face = 1;     // 1 for ace, 11 for J, 12 for Q, 13 for K
+    c1.shape = 0;    // 0 for heart, 1 for spade, 2 for diamond, 3 for clover
+    c1.color = 0;    // 0 for black cards and 1 for reds
+    
+    struct Card c2 = {1,0,1};
+    
+    // Let's say we want a deck of cards :
+    // We will create an array of cards (array of a structure)
+    struct Card deck[52];
+    
+    // struct Card deck[52] = {{1,0,0} , {2,0,0} , ....} and so on, but this will take an eternity to type :(
+    
+    // If we want to access an attribute of a specific card :
+    cout << deck[0].face;
+    cout << deck[0].shape;
+    cout << deck[0].color;
     
     
     return 0;
