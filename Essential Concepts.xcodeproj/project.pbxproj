@@ -11,6 +11,9 @@
 		AF1D61CA28539A03004F7FA6 /* Structures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF1D61C928539A03004F7FA6 /* Structures.cpp */; };
 		AF1D61CC2853D7D9004F7FA6 /* Pointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF1D61CB2853D7D9004F7FA6 /* Pointers.cpp */; };
 		AF1D61CE2854E065004F7FA6 /* LinkedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF1D61CD2854E065004F7FA6 /* LinkedLists.cpp */; };
+		AFC2B3FB2860EBC300C4630E /* References.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B3FA2860EBC300C4630E /* References.cpp */; };
+		AFC2B3FD2860EEEA00C4630E /* PointerStructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B3FC2860EEEA00C4630E /* PointerStructure.cpp */; };
+		AFC2B3FF2860F30500C4630E /* Functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B3FE2860F30500C4630E /* Functions.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +34,9 @@
 		AF1D61C928539A03004F7FA6 /* Structures.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Structures.cpp; sourceTree = "<group>"; };
 		AF1D61CB2853D7D9004F7FA6 /* Pointers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pointers.cpp; sourceTree = "<group>"; };
 		AF1D61CD2854E065004F7FA6 /* LinkedLists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedLists.cpp; sourceTree = "<group>"; };
+		AFC2B3FA2860EBC300C4630E /* References.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = References.cpp; sourceTree = "<group>"; };
+		AFC2B3FC2860EEEA00C4630E /* PointerStructure.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PointerStructure.cpp; sourceTree = "<group>"; };
+		AFC2B3FE2860F30500C4630E /* Functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Functions.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				AF1D61C228538A3A004F7FA6 /* Arrays.cpp */,
 				AF1D61C928539A03004F7FA6 /* Structures.cpp */,
 				AF1D61CB2853D7D9004F7FA6 /* Pointers.cpp */,
+				AFC2B3FA2860EBC300C4630E /* References.cpp */,
+				AFC2B3FC2860EEEA00C4630E /* PointerStructure.cpp */,
+				AFC2B3FE2860F30500C4630E /* Functions.cpp */,
 				AF1D61CD2854E065004F7FA6 /* LinkedLists.cpp */,
 			);
 			path = "Essential Concepts";
@@ -128,6 +137,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC2B3FB2860EBC300C4630E /* References.cpp in Sources */,
+				AFC2B3FF2860F30500C4630E /* Functions.cpp in Sources */,
+				AFC2B3FD2860EEEA00C4630E /* PointerStructure.cpp in Sources */,
 				AF1D61C328538A3A004F7FA6 /* Arrays.cpp in Sources */,
 				AF1D61CA28539A03004F7FA6 /* Structures.cpp in Sources */,
 				AF1D61CE2854E065004F7FA6 /* LinkedLists.cpp in Sources */,
