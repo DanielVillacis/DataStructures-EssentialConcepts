@@ -14,6 +14,9 @@
 		AFC2B3FB2860EBC300C4630E /* References.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B3FA2860EBC300C4630E /* References.cpp */; };
 		AFC2B3FD2860EEEA00C4630E /* PointerStructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B3FC2860EEEA00C4630E /* PointerStructure.cpp */; };
 		AFC2B3FF2860F30500C4630E /* Functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B3FE2860F30500C4630E /* Functions.cpp */; };
+		AFCF685A2864D7F00027BF16 /* ArraysParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFCF68592864D7F00027BF16 /* ArraysParameters.cpp */; };
+		AFCF685C2864E0580027BF16 /* StructureParameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFCF685B2864E0580027BF16 /* StructureParameters.cpp */; };
+		AFCF685E2864F7040027BF16 /* StructuresFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFCF685D2864F7040027BF16 /* StructuresFunctions.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +40,9 @@
 		AFC2B3FA2860EBC300C4630E /* References.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = References.cpp; sourceTree = "<group>"; };
 		AFC2B3FC2860EEEA00C4630E /* PointerStructure.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PointerStructure.cpp; sourceTree = "<group>"; };
 		AFC2B3FE2860F30500C4630E /* Functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Functions.cpp; sourceTree = "<group>"; };
+		AFCF68592864D7F00027BF16 /* ArraysParameters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArraysParameters.cpp; sourceTree = "<group>"; };
+		AFCF685B2864E0580027BF16 /* StructureParameters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StructureParameters.cpp; sourceTree = "<group>"; };
+		AFCF685D2864F7040027BF16 /* StructuresFunctions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StructuresFunctions.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,9 @@
 				AFC2B3FA2860EBC300C4630E /* References.cpp */,
 				AFC2B3FC2860EEEA00C4630E /* PointerStructure.cpp */,
 				AFC2B3FE2860F30500C4630E /* Functions.cpp */,
+				AFCF68592864D7F00027BF16 /* ArraysParameters.cpp */,
+				AFCF685B2864E0580027BF16 /* StructureParameters.cpp */,
+				AFCF685D2864F7040027BF16 /* StructuresFunctions.cpp */,
 				AF1D61CD2854E065004F7FA6 /* LinkedLists.cpp */,
 			);
 			path = "Essential Concepts";
@@ -138,8 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFC2B3FB2860EBC300C4630E /* References.cpp in Sources */,
+				AFCF685E2864F7040027BF16 /* StructuresFunctions.cpp in Sources */,
 				AFC2B3FF2860F30500C4630E /* Functions.cpp in Sources */,
 				AFC2B3FD2860EEEA00C4630E /* PointerStructure.cpp in Sources */,
+				AFCF685C2864E0580027BF16 /* StructureParameters.cpp in Sources */,
+				AFCF685A2864D7F00027BF16 /* ArraysParameters.cpp in Sources */,
 				AF1D61C328538A3A004F7FA6 /* Arrays.cpp in Sources */,
 				AF1D61CA28539A03004F7FA6 /* Structures.cpp in Sources */,
 				AF1D61CE2854E065004F7FA6 /* LinkedLists.cpp in Sources */,
