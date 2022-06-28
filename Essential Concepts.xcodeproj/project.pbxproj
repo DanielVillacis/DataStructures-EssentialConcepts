@@ -11,6 +11,11 @@
 		AF1D61CA28539A03004F7FA6 /* Structures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF1D61C928539A03004F7FA6 /* Structures.cpp */; };
 		AF1D61CC2853D7D9004F7FA6 /* Pointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF1D61CB2853D7D9004F7FA6 /* Pointers.cpp */; };
 		AF1D61CE2854E065004F7FA6 /* LinkedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF1D61CD2854E065004F7FA6 /* LinkedLists.cpp */; };
+		AF73CBEE286A02BB00999453 /* Classes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF73CBED286A02BB00999453 /* Classes.cpp */; };
+		AF73CBF0286A05AD00999453 /* MonolithicProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF73CBEF286A05AD00999453 /* MonolithicProgram.cpp */; };
+		AF73CBF2286A0B3C00999453 /* ModularProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF73CBF1286A0B3C00999453 /* ModularProgram.cpp */; };
+		AF73CBF4286A2DF900999453 /* TemplateClasses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF73CBF3286A2DF900999453 /* TemplateClasses.cpp */; };
+		AF73CBF7286A3DB500999453 /* StaticVsDynamic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF73CBF6286A3DB500999453 /* StaticVsDynamic.cpp */; };
 		AFC2B3FB2860EBC300C4630E /* References.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B3FA2860EBC300C4630E /* References.cpp */; };
 		AFC2B3FD2860EEEA00C4630E /* PointerStructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B3FC2860EEEA00C4630E /* PointerStructure.cpp */; };
 		AFC2B3FF2860F30500C4630E /* Functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B3FE2860F30500C4630E /* Functions.cpp */; };
@@ -37,6 +42,11 @@
 		AF1D61C928539A03004F7FA6 /* Structures.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Structures.cpp; sourceTree = "<group>"; };
 		AF1D61CB2853D7D9004F7FA6 /* Pointers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pointers.cpp; sourceTree = "<group>"; };
 		AF1D61CD2854E065004F7FA6 /* LinkedLists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedLists.cpp; sourceTree = "<group>"; };
+		AF73CBED286A02BB00999453 /* Classes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Classes.cpp; sourceTree = "<group>"; };
+		AF73CBEF286A05AD00999453 /* MonolithicProgram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MonolithicProgram.cpp; sourceTree = "<group>"; };
+		AF73CBF1286A0B3C00999453 /* ModularProgram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ModularProgram.cpp; sourceTree = "<group>"; };
+		AF73CBF3286A2DF900999453 /* TemplateClasses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TemplateClasses.cpp; sourceTree = "<group>"; };
+		AF73CBF6286A3DB500999453 /* StaticVsDynamic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StaticVsDynamic.cpp; sourceTree = "<group>"; };
 		AFC2B3FA2860EBC300C4630E /* References.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = References.cpp; sourceTree = "<group>"; };
 		AFC2B3FC2860EEEA00C4630E /* PointerStructure.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PointerStructure.cpp; sourceTree = "<group>"; };
 		AFC2B3FE2860F30500C4630E /* Functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Functions.cpp; sourceTree = "<group>"; };
@@ -60,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				AF1D61C128538A3A004F7FA6 /* Essential Concepts */,
+				AF73CBF5286A37B400999453 /* Introduction to DS */,
 				AF1D61C028538A3A004F7FA6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,9 +95,21 @@
 				AFCF68592864D7F00027BF16 /* ArraysParameters.cpp */,
 				AFCF685B2864E0580027BF16 /* StructureParameters.cpp */,
 				AFCF685D2864F7040027BF16 /* StructuresFunctions.cpp */,
+				AF73CBEF286A05AD00999453 /* MonolithicProgram.cpp */,
+				AF73CBF1286A0B3C00999453 /* ModularProgram.cpp */,
+				AF73CBED286A02BB00999453 /* Classes.cpp */,
+				AF73CBF3286A2DF900999453 /* TemplateClasses.cpp */,
 				AF1D61CD2854E065004F7FA6 /* LinkedLists.cpp */,
 			);
 			path = "Essential Concepts";
+			sourceTree = "<group>";
+		};
+		AF73CBF5286A37B400999453 /* Introduction to DS */ = {
+			isa = PBXGroup;
+			children = (
+				AF73CBF6286A3DB500999453 /* StaticVsDynamic.cpp */,
+			);
+			path = "Introduction to DS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,12 +173,17 @@
 				AFCF685E2864F7040027BF16 /* StructuresFunctions.cpp in Sources */,
 				AFC2B3FF2860F30500C4630E /* Functions.cpp in Sources */,
 				AFC2B3FD2860EEEA00C4630E /* PointerStructure.cpp in Sources */,
+				AF73CBF7286A3DB500999453 /* StaticVsDynamic.cpp in Sources */,
+				AF73CBF0286A05AD00999453 /* MonolithicProgram.cpp in Sources */,
 				AFCF685C2864E0580027BF16 /* StructureParameters.cpp in Sources */,
 				AFCF685A2864D7F00027BF16 /* ArraysParameters.cpp in Sources */,
+				AF73CBEE286A02BB00999453 /* Classes.cpp in Sources */,
 				AF1D61C328538A3A004F7FA6 /* Arrays.cpp in Sources */,
 				AF1D61CA28539A03004F7FA6 /* Structures.cpp in Sources */,
+				AF73CBF4286A2DF900999453 /* TemplateClasses.cpp in Sources */,
 				AF1D61CE2854E065004F7FA6 /* LinkedLists.cpp in Sources */,
 				AF1D61CC2853D7D9004F7FA6 /* Pointers.cpp in Sources */,
+				AF73CBF2286A0B3C00999453 /* ModularProgram.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
