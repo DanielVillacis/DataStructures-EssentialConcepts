@@ -16,6 +16,8 @@
 		AF73CBF2286A0B3C00999453 /* ModularProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF73CBF1286A0B3C00999453 /* ModularProgram.cpp */; };
 		AF73CBF4286A2DF900999453 /* TemplateClasses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF73CBF3286A2DF900999453 /* TemplateClasses.cpp */; };
 		AF73CBF7286A3DB500999453 /* StaticVsDynamic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF73CBF6286A3DB500999453 /* StaticVsDynamic.cpp */; };
+		AF73CBF9286B5B0500999453 /* PhysicalVsLogical.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF73CBF8286B5B0500999453 /* PhysicalVsLogical.cpp */; };
+		AF73CBFE286DFB2F00999453 /* TimeSpaceComplexity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF73CBFD286DFB2F00999453 /* TimeSpaceComplexity.cpp */; };
 		AFC2B3FB2860EBC300C4630E /* References.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B3FA2860EBC300C4630E /* References.cpp */; };
 		AFC2B3FD2860EEEA00C4630E /* PointerStructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B3FC2860EEEA00C4630E /* PointerStructure.cpp */; };
 		AFC2B3FF2860F30500C4630E /* Functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B3FE2860F30500C4630E /* Functions.cpp */; };
@@ -47,6 +49,11 @@
 		AF73CBF1286A0B3C00999453 /* ModularProgram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ModularProgram.cpp; sourceTree = "<group>"; };
 		AF73CBF3286A2DF900999453 /* TemplateClasses.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TemplateClasses.cpp; sourceTree = "<group>"; };
 		AF73CBF6286A3DB500999453 /* StaticVsDynamic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StaticVsDynamic.cpp; sourceTree = "<group>"; };
+		AF73CBF8286B5B0500999453 /* PhysicalVsLogical.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PhysicalVsLogical.cpp; sourceTree = "<group>"; };
+		AF73CBFB286B6CF300999453 /* AbstractDataType.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; path = AbstractDataType.md; sourceTree = "<group>"; };
+		AF73CBFC286CC2AE00999453 /* TimeSpaceComplexity.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TimeSpaceComplexity.md; sourceTree = "<group>"; };
+		AF73CBFD286DFB2F00999453 /* TimeSpaceComplexity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TimeSpaceComplexity.cpp; sourceTree = "<group>"; };
+		AF73CC00286DFE4700999453 /* RecursionIntroduction.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RecursionIntroduction.md; sourceTree = "<group>"; };
 		AFC2B3FA2860EBC300C4630E /* References.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = References.cpp; sourceTree = "<group>"; };
 		AFC2B3FC2860EEEA00C4630E /* PointerStructure.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PointerStructure.cpp; sourceTree = "<group>"; };
 		AFC2B3FE2860F30500C4630E /* Functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Functions.cpp; sourceTree = "<group>"; };
@@ -71,6 +78,7 @@
 			children = (
 				AF1D61C128538A3A004F7FA6 /* Essential Concepts */,
 				AF73CBF5286A37B400999453 /* Introduction to DS */,
+				AF73CBFF286DFDDD00999453 /* Recursion */,
 				AF1D61C028538A3A004F7FA6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,8 +116,20 @@
 			isa = PBXGroup;
 			children = (
 				AF73CBF6286A3DB500999453 /* StaticVsDynamic.cpp */,
+				AF73CBF8286B5B0500999453 /* PhysicalVsLogical.cpp */,
+				AF73CBFB286B6CF300999453 /* AbstractDataType.md */,
+				AF73CBFC286CC2AE00999453 /* TimeSpaceComplexity.md */,
+				AF73CBFD286DFB2F00999453 /* TimeSpaceComplexity.cpp */,
 			);
 			path = "Introduction to DS";
+			sourceTree = "<group>";
+		};
+		AF73CBFF286DFDDD00999453 /* Recursion */ = {
+			isa = PBXGroup;
+			children = (
+				AF73CC00286DFE4700999453 /* RecursionIntroduction.md */,
+			);
+			path = Recursion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,9 +193,11 @@
 				AFCF685E2864F7040027BF16 /* StructuresFunctions.cpp in Sources */,
 				AFC2B3FF2860F30500C4630E /* Functions.cpp in Sources */,
 				AFC2B3FD2860EEEA00C4630E /* PointerStructure.cpp in Sources */,
+				AF73CBFE286DFB2F00999453 /* TimeSpaceComplexity.cpp in Sources */,
 				AF73CBF7286A3DB500999453 /* StaticVsDynamic.cpp in Sources */,
 				AF73CBF0286A05AD00999453 /* MonolithicProgram.cpp in Sources */,
 				AFCF685C2864E0580027BF16 /* StructureParameters.cpp in Sources */,
+				AF73CBF9286B5B0500999453 /* PhysicalVsLogical.cpp in Sources */,
 				AFCF685A2864D7F00027BF16 /* ArraysParameters.cpp in Sources */,
 				AF73CBEE286A02BB00999453 /* Classes.cpp in Sources */,
 				AF1D61C328538A3A004F7FA6 /* Arrays.cpp in Sources */,

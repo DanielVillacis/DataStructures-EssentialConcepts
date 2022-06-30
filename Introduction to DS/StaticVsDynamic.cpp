@@ -35,6 +35,10 @@ int main() {
 // When required, use the memory. When not required, delete it.
 // To access memory inside the heap, the usage of pointers is required.
 void otherMain() {
-    int *p;
-    p = new int[5];     // Creates a pointer to the heap, where an array of size 5 will be created.
+    int *p;             // Creates a pointer in the stack memory,where a pointer of integer (8 bytes) will be created
+    p = new int[5];     // Creates a pointer to the heap memory, where an array of size 5 will be created.
+    // once we used the memory, we must release it :
+    delete []p;
+    p = NULL;
+    
 }
