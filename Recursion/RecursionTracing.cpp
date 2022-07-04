@@ -9,10 +9,11 @@
 using namespace std;
 
 void fun1(int n) {
-    if(n > 0) {
-        cout << n;
-        fun1(n-1);
+    if(n > 0) {    // Time -> 1
+        cout << n; // Time -> 1
+        fun1(n-1); // Time -> T(n-1)
     }
+    // total time : T(n) = T(n-k) + k
 }
 
 /*
@@ -31,6 +32,12 @@ void fun1(int n) {
                                                \
                                                 \
                                                   fun1(0) -> retun bc (n = 0);
+ 
+ Time complexity :
+ Since we only go from 'n' to 'n-1' until n>0
+ it means our time depends on the number of calls, therefor
+ our time complexity is O(n).
+ 
  */
 
 int main() {
@@ -83,6 +90,10 @@ This will do fun2(3)-            cout<< 2 then go back to fun2(3)
                                          \
                                           \
                                            fun2(0) -> stop because (0 !> 0);
+ 
+
+ Time complexity : Since we only go from 'n' to 'n-1' until n>0, our time complexity is O(n).
+ 
  */
 
 
