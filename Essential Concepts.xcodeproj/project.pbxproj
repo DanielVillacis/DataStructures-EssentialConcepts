@@ -60,6 +60,7 @@
 		AFCF68592864D7F00027BF16 /* ArraysParameters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArraysParameters.cpp; sourceTree = "<group>"; };
 		AFCF685B2864E0580027BF16 /* StructureParameters.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StructureParameters.cpp; sourceTree = "<group>"; };
 		AFCF685D2864F7040027BF16 /* StructuresFunctions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StructuresFunctions.cpp; sourceTree = "<group>"; };
+		AFE31818287339EA003B814B /* RecursionTracing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RecursionTracing.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				AF73CC00286DFE4700999453 /* RecursionIntroduction.md */,
+				AFE31818287339EA003B814B /* RecursionTracing.cpp */,
 			);
 			path = Recursion;
 			sourceTree = "<group>";
