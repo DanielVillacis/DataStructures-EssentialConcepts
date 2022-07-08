@@ -11,6 +11,7 @@
 		AF1D61CA28539A03004F7FA6 /* Structures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF1D61C928539A03004F7FA6 /* Structures.cpp */; };
 		AF1D61CC2853D7D9004F7FA6 /* Pointers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF1D61CB2853D7D9004F7FA6 /* Pointers.cpp */; };
 		AF1D61CE2854E065004F7FA6 /* LinkedLists.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF1D61CD2854E065004F7FA6 /* LinkedLists.cpp */; };
+		AF640E7B2877F7B900F2FECC /* FactorialNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF640E7A2877F7B900F2FECC /* FactorialNumber.cpp */; };
 		AF73CBEE286A02BB00999453 /* Classes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF73CBED286A02BB00999453 /* Classes.cpp */; };
 		AF73CBF0286A05AD00999453 /* MonolithicProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF73CBEF286A05AD00999453 /* MonolithicProgram.cpp */; };
 		AF73CBF2286A0B3C00999453 /* ModularProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF73CBF1286A0B3C00999453 /* ModularProgram.cpp */; };
@@ -48,6 +49,8 @@
 		AF640E762877688200F2FECC /* TreeRecursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TreeRecursion.cpp; sourceTree = "<group>"; };
 		AF640E7728776C6C00F2FECC /* IndirectRecursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IndirectRecursion.cpp; sourceTree = "<group>"; };
 		AF640E782877726600F2FECC /* NestedRecursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NestedRecursion.cpp; sourceTree = "<group>"; };
+		AF640E792877F38600F2FECC /* SumOfNumbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SumOfNumbers.cpp; sourceTree = "<group>"; };
+		AF640E7A2877F7B900F2FECC /* FactorialNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FactorialNumber.cpp; sourceTree = "<group>"; };
 		AF73CBED286A02BB00999453 /* Classes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Classes.cpp; sourceTree = "<group>"; };
 		AF73CBEF286A05AD00999453 /* MonolithicProgram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MonolithicProgram.cpp; sourceTree = "<group>"; };
 		AF73CBF1286A0B3C00999453 /* ModularProgram.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ModularProgram.cpp; sourceTree = "<group>"; };
@@ -138,6 +141,8 @@
 				AF640E762877688200F2FECC /* TreeRecursion.cpp */,
 				AF640E7728776C6C00F2FECC /* IndirectRecursion.cpp */,
 				AF640E782877726600F2FECC /* NestedRecursion.cpp */,
+				AF640E792877F38600F2FECC /* SumOfNumbers.cpp */,
+				AF640E7A2877F7B900F2FECC /* FactorialNumber.cpp */,
 			);
 			path = Recursion;
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 				AF73CBF4286A2DF900999453 /* TemplateClasses.cpp in Sources */,
 				AF1D61CE2854E065004F7FA6 /* LinkedLists.cpp in Sources */,
 				AF1D61CC2853D7D9004F7FA6 /* Pointers.cpp in Sources */,
+				AF640E7B2877F7B900F2FECC /* FactorialNumber.cpp in Sources */,
 				AF73CBF2286A0B3C00999453 /* ModularProgram.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
