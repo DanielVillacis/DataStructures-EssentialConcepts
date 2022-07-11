@@ -19,6 +19,7 @@
 		AF73CBF7286A3DB500999453 /* StaticVsDynamic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF73CBF6286A3DB500999453 /* StaticVsDynamic.cpp */; };
 		AF73CBF9286B5B0500999453 /* PhysicalVsLogical.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF73CBF8286B5B0500999453 /* PhysicalVsLogical.cpp */; };
 		AF73CBFE286DFB2F00999453 /* TimeSpaceComplexity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF73CBFD286DFB2F00999453 /* TimeSpaceComplexity.cpp */; };
+		AF9DF527287C9155009A978F /* PowerRecursion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF9DF526287C9155009A978F /* PowerRecursion.cpp */; };
 		AFC2B3FB2860EBC300C4630E /* References.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B3FA2860EBC300C4630E /* References.cpp */; };
 		AFC2B3FD2860EEEA00C4630E /* PointerStructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B3FC2860EEEA00C4630E /* PointerStructure.cpp */; };
 		AFC2B3FF2860F30500C4630E /* Functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B3FE2860F30500C4630E /* Functions.cpp */; };
@@ -61,6 +62,7 @@
 		AF73CBFC286CC2AE00999453 /* TimeSpaceComplexity.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TimeSpaceComplexity.md; sourceTree = "<group>"; };
 		AF73CBFD286DFB2F00999453 /* TimeSpaceComplexity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TimeSpaceComplexity.cpp; sourceTree = "<group>"; };
 		AF73CC00286DFE4700999453 /* RecursionIntroduction.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RecursionIntroduction.md; sourceTree = "<group>"; };
+		AF9DF526287C9155009A978F /* PowerRecursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PowerRecursion.cpp; sourceTree = "<group>"; };
 		AFC2B3FA2860EBC300C4630E /* References.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = References.cpp; sourceTree = "<group>"; };
 		AFC2B3FC2860EEEA00C4630E /* PointerStructure.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PointerStructure.cpp; sourceTree = "<group>"; };
 		AFC2B3FE2860F30500C4630E /* Functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Functions.cpp; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				AF640E782877726600F2FECC /* NestedRecursion.cpp */,
 				AF640E792877F38600F2FECC /* SumOfNumbers.cpp */,
 				AF640E7A2877F7B900F2FECC /* FactorialNumber.cpp */,
+				AF9DF526287C9155009A978F /* PowerRecursion.cpp */,
 			);
 			path = Recursion;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				AF1D61CE2854E065004F7FA6 /* LinkedLists.cpp in Sources */,
 				AF1D61CC2853D7D9004F7FA6 /* Pointers.cpp in Sources */,
 				AF640E7B2877F7B900F2FECC /* FactorialNumber.cpp in Sources */,
+				AF9DF527287C9155009A978F /* PowerRecursion.cpp in Sources */,
 				AF73CBF2286A0B3C00999453 /* ModularProgram.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
