@@ -22,6 +22,8 @@
 		AF9DF527287C9155009A978F /* PowerRecursion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF9DF526287C9155009A978F /* PowerRecursion.cpp */; };
 		AF9DF529287C9CAC009A978F /* TaylorSeriesRecursion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AF9DF528287C9CAC009A978F /* TaylorSeriesRecursion.cpp */; };
 		AFA7945C28B60DE6006EB8B9 /* Fibonacci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFA7945B28B60DE6006EB8B9 /* Fibonacci.cpp */; };
+		AFA7945E28B6A93A006EB8B9 /* CombinationFormula.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFA7945D28B6A93A006EB8B9 /* CombinationFormula.cpp */; };
+		AFA7946028B6EA0F006EB8B9 /* TowerOfHanoi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFA7945F28B6EA0F006EB8B9 /* TowerOfHanoi.cpp */; };
 		AFC2B3FB2860EBC300C4630E /* References.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B3FA2860EBC300C4630E /* References.cpp */; };
 		AFC2B3FD2860EEEA00C4630E /* PointerStructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B3FC2860EEEA00C4630E /* PointerStructure.cpp */; };
 		AFC2B3FF2860F30500C4630E /* Functions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFC2B3FE2860F30500C4630E /* Functions.cpp */; };
@@ -67,6 +69,8 @@
 		AF9DF526287C9155009A978F /* PowerRecursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PowerRecursion.cpp; sourceTree = "<group>"; };
 		AF9DF528287C9CAC009A978F /* TaylorSeriesRecursion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TaylorSeriesRecursion.cpp; sourceTree = "<group>"; };
 		AFA7945B28B60DE6006EB8B9 /* Fibonacci.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fibonacci.cpp; sourceTree = "<group>"; };
+		AFA7945D28B6A93A006EB8B9 /* CombinationFormula.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CombinationFormula.cpp; sourceTree = "<group>"; };
+		AFA7945F28B6EA0F006EB8B9 /* TowerOfHanoi.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TowerOfHanoi.cpp; sourceTree = "<group>"; };
 		AFC2B3FA2860EBC300C4630E /* References.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = References.cpp; sourceTree = "<group>"; };
 		AFC2B3FC2860EEEA00C4630E /* PointerStructure.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PointerStructure.cpp; sourceTree = "<group>"; };
 		AFC2B3FE2860F30500C4630E /* Functions.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Functions.cpp; sourceTree = "<group>"; };
@@ -152,6 +156,8 @@
 				AF640E7A2877F7B900F2FECC /* FactorialNumber.cpp */,
 				AF9DF526287C9155009A978F /* PowerRecursion.cpp */,
 				AF9DF528287C9CAC009A978F /* TaylorSeriesRecursion.cpp */,
+				AFA7945D28B6A93A006EB8B9 /* CombinationFormula.cpp */,
+				AFA7945F28B6EA0F006EB8B9 /* TowerOfHanoi.cpp */,
 			);
 			path = Recursion;
 			sourceTree = "<group>";
@@ -213,8 +219,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFA7946028B6EA0F006EB8B9 /* TowerOfHanoi.cpp in Sources */,
 				AFC2B3FB2860EBC300C4630E /* References.cpp in Sources */,
 				AFCF685E2864F7040027BF16 /* StructuresFunctions.cpp in Sources */,
+				AFA7945E28B6A93A006EB8B9 /* CombinationFormula.cpp in Sources */,
 				AFC2B3FF2860F30500C4630E /* Functions.cpp in Sources */,
 				AFA7945C28B60DE6006EB8B9 /* Fibonacci.cpp in Sources */,
 				AFC2B3FD2860EEEA00C4630E /* PointerStructure.cpp in Sources */,
